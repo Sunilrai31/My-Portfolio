@@ -1,0 +1,772 @@
+.about-banner-space{
+    display: flex;
+    justify-content: center;
+  }
+
+  /* ****************************************************START TRADING SECTION*************************************** */
+  .start-trading-cards{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px 0px;
+  }
+  .start-trading-card{
+    width: 260px;
+    height: fit-content;
+    padding-bottom: 10px;
+    margin: 15px 0px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  }
+  .start-trading-card:hover , .start-trading-card:focus, .start-trading-card:active{
+    cursor: pointer;
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: 1s;
+  }
+  .start-trading-card-img{
+    display: flex;
+    justify-content: center;
+  }
+  .start-trading-card-img img{
+    width: 60px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+  }
+  .start-trading-card-head{
+    width: 185px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .start-trading-card-head i{
+    color: var(--main-color);
+    padding-bottom: 12px;
+  }
+  .start-trading-card-head p{
+    font-size: 25px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .start-trading-card-pera{
+    display: flex;
+    justify-content: center;
+    padding: 20px 0px;
+  }
+  .start-trading-card-pera i{
+    color: #2EE383;
+    padding: 5px 15px 0px 0px;
+  
+  }
+  .start-trading-card-pera p{
+    padding-right: 15px;
+    height: 50px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .cabana-partnership-section{
+    display: flex;
+    justify-content: center;
+  }
+  .cabana-partnership-align{
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  }
+  .cabana-partnership-head{
+    margin: 30px 0px;
+  }
+  .cabana-partnership-btn{
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .cabana-partnership-pera p{
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+  }
+  .cabana-partnership-btn .buttons{
+    width: 185px;
+    font-size: 15px;
+  }
+  .cabana-partnership img{
+    width: 400px;
+    height: 350px;
+    padding: 20px 20px 10px 20px;
+  }
+  /* ***********************************************************INVESTMENT************************************* */
+  /* ***********************************************************INVESTMENT************************************* */
+  .investment-left-1st-card{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 708px;
+    height: 122px;
+    border-radius: 14px ;
+    margin: 10px 0px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  
+  }
+  .investment-left{
+    display: flex;
+    flex-direction: column;
+  }
+  .investment-left-pic{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .investment-left-pic img{
+    width: 80px;
+    border-radius: 50%;
+    
+  }
+  .investment-account{
+    padding-left: 10px;
+  }
+  .investment-account h4{
+    margin: 0%;
+  }
+  .investment-account p{
+    margin: 0%;
+  }
+  .investment-left-side-btn{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center; 
+    margin: 15px 0px 10px;
+  }
+  .investment-left-side-btn .buttons{
+    width: 290px;
+  }
+  .investment-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  .investment-right-heading{
+    margin: 10px 0px;
+    text-align: center;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .investment-right-heading p{
+    padding-top: 10px;
+    font-size: 18px;
+  }
+  /* ************************************we accept************************* */
+  .we-accept-banners{
+   background: var(--black-color);
+  }
+  .logos{
+    display: flex;
+    justify-content: center;
+  }
+  .logos img{
+    width: 12%;
+    aspect-ratio: 3/2;
+    object-fit: contain;
+  }
+  .we-accept-banner {
+    position: relative;
+  }
+  .we-accept-banner .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* black with 50% opacity */
+  }
+  
+  .we-accept-banner img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .we-accept-banner-1 {
+    opacity: 0.9;
+    height: 370px !important;
+  }
+  
+  .we-accept-banner-2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    max-width: 60%; /* Adjust as needed */
+  }
+  /* **************************************Social media icon************************** */
+  .social-media{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  .social-media-icon{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 20px 50px;
+  }
+  .social-icon {
+    width: 40px; 
+    height: 40px;
+    line-height: 40px; 
+    text-align: center;
+    border-radius: 50%;
+    font-size: 35px;
+  }
+  
+  /* Customize individual social media icons */
+  .facebook-icon {
+    color: #1877F2; /* Facebook blue */
+  }
+  
+  .twitter-icon {
+    color: #1DA1F2; /* Twitter blue */
+  }
+  
+  .instagram-icon {
+    color: #E4405F; /* Instagram pink */
+  }
+  
+  .linkedin-icon {
+    color: #0077B5; /* LinkedIn blue */
+  }
+  
+  .youtube-icon {
+    color: #FF0000; /* YouTube red */
+  }
+  .whatsapp-icon {
+    color: #25D366; /* WhatsApp green */
+  }
+  
+  .telegram-icon {
+    color: #0088cc; /* Telegram blue */
+  }
+  
+  .discord-icon {
+    color: #5865F2; /* Discord blue */
+  }
+  
+  .about-head{
+    font-size: 15px;
+    font-weight: bold;
+    color: var(--white-color);
+    margin-top: 20px;
+    /* display: flex;
+    justify-content: space-around; */
+  }
+  .about-pera{
+    /* padding: 18px; */
+    justify-content: space-around;
+    color: var(--white-color);
+  }
+  .about-pera p{
+    font-size: 13px;
+    margin: 0%;
+  }
+  .about-pera-2 p{
+    font-size: 13px;
+    color: var(--white-color);
+  }
+  /* ******************************************About page ************************************************** */
+  .we-accept-banner-2{
+    color: var(--white-color);
+    text-align: center;
+  }
+  .skill-page-banner{
+    margin: 30px 0px;
+    padding: 29px 310px 50px ;
+    border-top-right-radius: 60px;
+    border-bottom-left-radius: 60px;
+    height: fit-content;
+    width: fit-content;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  }
+  /* kkkkkkkkkkkk */
+
+  
+  .about-page-banner{
+    margin: 50px 0px;
+    padding: 29px 110px 50px 83px;;
+    border-top-right-radius: 249px;
+    border-bottom-left-radius: 249px;
+    height: fit-content;
+    width: fit-content;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  }
+  
+  
+  
+  
+  
+  
+  /* ******************************************MEDIA QUERY FOR 760PX**************************************** */
+  @media(max-width: 770px) {
+    .upper-nav-list a {
+      display: flex;
+      font-size: 10px;
+      justify-content: center;
+    }
+  
+    .buttons {
+      width: 215px;
+    }
+  /* ***********MEDIA QUERY FOR LATEST NEWS SECTION************ */
+    /* .news-box{
+      width: 540px;
+    } */
+    .head-selected,.news-head{
+      width: 150px;
+    }
+    .head-selected a, .news-head a{
+      font-size: 12px;
+    }
+    th{
+      font-size: 10px;
+    }
+    .table-borderless td{
+      font-size: 10px;
+    }
+    .sell-btn{
+      width: 48px;
+      height: 18px;
+    }
+    .buy-btn{
+      width: 48px;
+      height: 18px;
+    }
+    /* .card{
+      width: 250px;
+    } */
+    .card-head p{
+      font-size: 20px;
+    }
+    .card-pera p{
+      font-size: 12px;
+      /* height: 124px; */
+    }
+    .card-btn .btn{
+      width: 105px;
+      height: 30px;
+      font-size: 8px;
+    }
+    .social-media-icon{
+      width: 85%;
+    }
+    .about-banner img{
+      width: 100%;
+      height: 250px;
+    }
+    .about-banner-head p{
+      width: 300px;
+      font-size: 18px;
+    }
+    .about-banner-pera p{
+      margin-top: 30px;
+      font-size: 12px;
+    }
+    .start-trading-card{
+      width: 220px;
+      margin: 15px 0px;
+    }
+    .cabana-partnership-align {
+      width: 100%;
+    }
+    .cabana-partnership img{
+      width: 440px;
+      height: 250px;
+    }
+    .start-trading-cards{
+      justify-content: space-evenly;
+    }
+  }
+  /* ******************************************MEDIA QUERY FOR 420 PX**************************************** */
+@media(max-width: 420px) {
+    .upper-nav{
+      margin-bottom: 0;
+    }
+    .upper-nav-list a {
+      font-size: 6px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .buttons {
+      width: 80px;
+    }
+    .heading{
+      margin: 40px 0px;
+    }
+    .slide img {
+      height: 310px;
+      margin: 0%;
+      padding: 0%;
+      position: relative;
+    }
+    .slide .overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 310px;
+      background-color: rgba(0, 0, 0, 0.5); /* black with 50% opacity */
+   }
+    .slides {
+      height: 240px;
+    }
+    .slider {
+      height: 320px;
+    }
+    .navigation-manual {
+      width: 100%;
+      margin-top: 52px;
+    }
+    .navigation-auto {
+      margin-top: 292px;
+      width: 100%;
+    }
+    .banner-text {
+      width: 60%;
+      top: 66px;
+      left: 21px;
+      height: 100px;
+    }
+    .banner-heading h1 {
+      font-size: 20px;
+      font-weight: 500;
+    }
+    .banner-subheading h4 {
+      font-size: 10px;
+    }
+    .banner-btn .buttons {
+      width: 130px;
+      font-size: 10px;
+    }
+    .banner-pera1,
+    .banner-pera2 {
+      font-size: 8px;
+    }
+    .banner-text div {
+      padding-top: 5px;
+    }
+    /* **********************latest news table************** */
+    .head-selected,.news-head{
+      width: 80px;
+      height: 50px;
+    }
+    .head-selected a, .news-head a{
+      font-size: 6px;
+    }
+    th{
+      font-size: 6px;
+    }
+    .table-borderless td{
+      font-size: 5px;
+    }
+    .news-buttons{
+      justify-content: space-between;
+    }
+    .sell-btn{
+      width: 18px;
+      height: 8px;
+      font-size: 6px;
+    }
+    .buy-btn{
+      width: 18px;
+      height: 8px;
+      font-size: 6px;
+    }
+  .cards{
+    justify-content: space-evenly;
+  }
+  .card{
+    margin: 0px;
+  }
+    .card-head p{
+      width: 100px;
+      font-size: 8px;
+    }
+    .card-pera{
+      margin: 0px 10px 10px 10px;
+    }
+    .card-pera p{
+      font-size: 6px;
+      height: 100%;
+      margin-top: 10px;
+    }
+    .card-btn .btn {
+      width: 62px;
+      height: 22px;
+      font-size: 4px;
+    }
+  .card-pera {
+    /* height: 70px; */
+    margin-top: 5px;
+    }
+    /* **************************************************************about banner image************************************************************ */
+  .about-banner{
+    width: 100%;
+  }
+  .about-banner img{
+    width: 100%;
+    height: 165px;
+  }
+  .about-banner-head p{
+    font-size: 8px;
+    width: 190px;
+  }
+  .about-banner-pera{
+    font-size: 6px;
+    height: 60px;
+  }
+  .about-banner-pera p{
+    font-size: 6px;
+  }
+  .start-trading-card{
+    width: 140px;
+    padding: 5px;
+    margin: 10px 0px;
+  }
+  .start-trading-cards{
+    justify-content: space-evenly;
+  
+  }
+  .start-trading-card-img img {
+    width: 46px;
+    height: 55px;
+  }
+  .start-trading-card-head{
+    width: 112px;
+  }
+  .start-trading-card-head p{
+    font-size:20px;
+  }
+  .start-trading-card-pera{
+    padding: 0%;
+  }
+  .start-trading-card-pera p{
+    font-size: 10px;
+    padding: 0%;
+  }
+  .start-trading-card-pera i{
+    padding: 6px 5px 0px 5px;
+    display: flex;
+    justify-content: center;
+  
+  }
+  .cabana-partnership-section{
+    display: flex;
+    justify-content: center;
+  }
+  .cabana-partnership-align{
+    display: flex;
+    flex-direction: column;
+    width: 290px;
+    padding: 10px 0px;
+  }
+  .cabana-partnership{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .cabana-partnership img{
+    height: 170px;
+    /* width: 280px; */
+    margin-right: 40px;
+  }
+  .cabana-partnership-head {
+    margin: 0px 0px;
+  }
+  .cabana-partnership-head .heading{
+    font-size: 16px;
+    margin: 20px 0px;
+  }
+  .cabana-partnership-pera p{
+    font-size: 12px;
+  }
+  .cabana-partnership-btn .buttons {
+    width: 85px;
+    font-size: 6px;
+  }
+  .investment-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .investment-left-1st-card {
+    width: 320px;
+    height: 80px;
+  }
+  .investment-left-pic img {
+    width: 55px;
+  }
+  .investment-account h4{
+    font-size: 8px;
+  }
+  .investment-account p{
+    font-size: 6px;
+  }
+  
+  .investment-left-side-btn .buttons{
+    width: 290px;
+  }
+  .investment-right-btn .buttons{
+    width: 135px;
+  }
+  .we-accept-banner-1{
+    height: 105px !important;
+  }
+  .social-icon{
+    font-size: 20px;
+  }
+  .about-pera-2{
+    font-size: 1px;
+  }
+  .logos img {
+    width: 10%;
+  }
+  .social-media-icon {
+    width: 100%;
+  }
+  
+  
+  /* ******************************************.about-page****************************** */
+  .whycabana-heading h1{
+    font-size: 10px;
+  }
+  .whycabana-pera p{
+    font-size: 6px;
+  }
+  .about-page-banner{
+    padding: 29px 23px 15px 19px;
+    border-top-right-radius: 87px;
+    border-bottom-left-radius: 90px;
+    font-size: 6px;
+  }
+  }
+  /*....................................................... fotter sunil...... */
+  *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+footer{
+    background-color: #111; 
+}
+.footerContainer{
+    width: 100%;
+    padding: 70px 30px 20px;
+}
+.socialIcons{
+    display: flex;
+    justify-content: center;
+}
+.socialIcons a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+}
+.socialIcons a i{
+    font-size: 2em;
+    color: black;
+    opacity: 0.9;
+}
+.socialIcons a:hover{
+    background-color: #111;
+    transition: 0.5s;
+}
+.socialIcons a:hover{
+    color: white;
+    transition: 0.5s;
+}
+.footerNav{
+    margin: 30px 0;
+}
+.footerNav ul{
+    display: flex;
+    justify-content: center;
+}
+.footerNav ul li a{
+    color: white;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity: 0.7;
+    transition: 0.5s;    
+}
+.footerNav ul li a{
+    opacity: 1;
+}
+.footerBottom p{
+    color: white;
+}
+.designer{
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0px 5px;
+}
+
+/* ........................cnt */
+.cnt {
+    display: grid;
+    justify-content: center;
+    padding-left: 480px;    
+}
+.cntt {
+  display: grid;
+  justify-content: center;
+  padding-left: 200px;
+
+}
+.wrd{
+  width: fit-content;
+  padding-left: 490px;
+  justify-content: center;
+  align-items: center;
+  
+}
+.side{
+  width:100%;
+  background-color: #818181c3;
+  
+}
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
